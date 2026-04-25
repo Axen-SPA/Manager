@@ -48,5 +48,4 @@ https://axen.jp
 ---
 
 ## 開発者
-haru
-
+AxenSystem
