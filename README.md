@@ -21,3 +21,32 @@ AxenSystem Manager は Windows の状態を高速かつ正確に可視化する�
 ---
 
 ## ビルド方法（PyInstaller）
+pyinstaller ^
+--noconfirm ^
+--onefile ^
+--windowed ^
+--icon=icon.ico ^
+--add-data "splash.png;." ^
+--add-data "about.png;." ^
+--add-data "icon.ico;." ^
+axensystem_manager.py
+
+
+---
+
+## 必要ファイル
+- axensystem_manager.py  
+- splash.png  
+- about.png  
+- icon.ico  
+
+---
+
+## 公式サイト
+https://axen.jp
+
+---
+
+## 開発者
+haru
+
